@@ -1,0 +1,16 @@
+PODS:
+  - SharkORM (2.1.3)
+
+DEPENDENCIES:
+  - SharkORM
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SharkORM
+
+SPEC CHECKSUMS:
+  SharkORM: 0dd55f13d82ab4c68f7c54012211c6a34a9f0001
+
+PODFILE CHECKSUM: 3db3030e89da3c89dcfc475566eb499e669b84df
+
+COCOAPODS: 1.5.3
