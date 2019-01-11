@@ -58,16 +58,24 @@
 		0AA9888B21E9417F00A98A74 /* Eyexercise */ = {
 			isa = PBXGroup;
 			children = (
+				0AA988A421E9437700A98A74 /* Views */,
 				0AA9888C21E9417F00A98A74 /* AppDelegate.swift */,
-				0AA9888E21E9417F00A98A74 /* GameScene.sks */,
-				0AA9889221E9417F00A98A74 /* GameScene.swift */,
-				0AA9889421E9417F00A98A74 /* GameViewController.swift */,
 				0AA9889621E9417F00A98A74 /* Main.storyboard */,
 				0AA9889921E9418000A98A74 /* Assets.xcassets */,
 				0AA9889B21E9418000A98A74 /* LaunchScreen.storyboard */,
 				0AA9889E21E9418000A98A74 /* Info.plist */,
 			);
 			path = Eyexercise;
+			sourceTree = "<group>";
+		};
+		0AA988A421E9437700A98A74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AA9888E21E9417F00A98A74 /* GameScene.sks */,
+				0AA9889221E9417F00A98A74 /* GameScene.swift */,
+				0AA9889421E9417F00A98A74 /* GameViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
