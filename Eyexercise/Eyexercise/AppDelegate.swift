@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import SharkORM
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, SRKDelegate {
 
     var window: UIWindow?
+    static let STATS_DB = "EYEXERCISE_STATS"
+    static let ScreenSize = UIScreen.main.bounds.size;
+    static let Scale = UIScreen.main.scale
+    static let PPI = UIScreen.main.scale * ((UIDevice.current.userInterfaceIdiom == .pad) ? 132 : 163)
+    
+    public static func Pixels(fromInches inches: CGFloat) -> CGFloat {
+        return inches * PPI / Scale;
+    }
+    
+    public static func Inches(fromPixels pixels: CGFloat) -> CGFloat {
+        return (pixels * Scale) / PPI;
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        SharkORM.setDelegate(self);
+        SharkORM.openDatabaseNamed(AppDelegate.STATS_DB);
         return true
     }
 

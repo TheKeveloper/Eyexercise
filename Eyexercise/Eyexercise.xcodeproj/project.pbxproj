@@ -29,6 +29,9 @@
 		0AA9889C21E9418000A98A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA9889E21E9418000A98A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AA988A521E9446300A98A74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44BC6CAF95D739FA1FA76D89 /* Pods_Eyexercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eyexercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		470D0D1744DCD6AD1EBC3E6F /* Pods-Eyexercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eyexercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eyexercise/Pods-Eyexercise.debug.xcconfig"; sourceTree = "<group>"; };
+		809802D0EB87A65DFFF8A651 /* Pods-Eyexercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eyexercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eyexercise/Pods-Eyexercise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
