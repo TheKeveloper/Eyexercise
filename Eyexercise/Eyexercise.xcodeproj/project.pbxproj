@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A65C68421EAE6C000133561 /* DrillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65C68321EAE6C000133561 /* DrillViewController.swift */; };
 		0AA9888D21E9417F00A98A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9888C21E9417F00A98A74 /* AppDelegate.swift */; };
 		0AA9888F21E9417F00A98A74 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9888E21E9417F00A98A74 /* GameScene.sks */; };
 		0AA9889321E9417F00A98A74 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9889221E9417F00A98A74 /* GameScene.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A65C68321EAE6C000133561 /* DrillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillViewController.swift; sourceTree = "<group>"; };
 		0AA9888921E9417F00A98A74 /* Eyexercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eyexercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA9888C21E9417F00A98A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA9888E21E9417F00A98A74 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				0AA9889221E9417F00A98A74 /* GameScene.swift */,
 				0AA9889421E9417F00A98A74 /* GameViewController.swift */,
 				0AA988A521E9446300A98A74 /* HomeViewController.swift */,
+				0A65C68321EAE6C000133561 /* DrillViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				0AA9889321E9417F00A98A74 /* GameScene.swift in Sources */,
 				0AA9889521E9417F00A98A74 /* GameViewController.swift in Sources */,
+				0A65C68421EAE6C000133561 /* DrillViewController.swift in Sources */,
 				0AA9888D21E9417F00A98A74 /* AppDelegate.swift in Sources */,
 				0AA988A621E9446300A98A74 /* HomeViewController.swift in Sources */,
 			);
